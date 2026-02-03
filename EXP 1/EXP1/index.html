@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Property Listing Website</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Embedded CSS -->
+    <style>
+        .map-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        iframe {
+            border: 2px solid #333;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: darkblue; text-align: center;">
+        Online Property Listing Website
+    </h1>
+
+    <p style="text-align:center; font-size:16px;">
+        Click on any area in the Chennai map to view property details.
+    </p>
+
+    <!-- Navigation Links -->
+    <div class="nav">
+        <a href="https://www.99acres.com" target="_blank">99acres</a>
+        <a href="https://www.magicbricks.com" target="_blank">MagicBricks</a>
+        <a href="https://www.nobroker.in" target="_blank">NoBroker</a>
+    </div>
+
+    <!-- Map with Hotspots -->
+    <div class="map-container">
+        <img src="chennai-map.jpg" alt="Chennai Map" usemap="#chennai" width="500">
+
+        <map name="chennai">
+            <area shape="rect" coords="120,150,200,230" href="t-nagar.html" target="propertyFrame" alt="T Nagar">
+            <area shape="rect" coords="260,200,340,280" href="velachery.html" target="propertyFrame" alt="Velachery">
+            <area shape="rect" coords="350,250,450,330" href="omr.html" target="propertyFrame" alt="OMR">
+	    <area shape="rect" coords="60,260,180,360"
+      href="anna-nagar.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="190,260,300,360"
+      href="adyar.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="310,260,420,360"
+      href="porur.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="430,260,500,360"
+      href="tambaram.html"
+      target="propertyFrame">
+<area shape="rect" coords="50,370,150,450"
+      href="mylapore.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="160,370,260,450"
+      href="nungambakkam.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="270,370,360,450"
+      href="perambur.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="370,370,450,450"
+      href="thiruvanmiyur.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="460,370,500,450"
+      href="chromepet.html"
+      target="propertyFrame">
+<area shape="rect" coords="80,420,180,480"
+      href="pallikaranai.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="200,420,300,480"
+      href="sholinganallur.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="320,420,420,480"
+      href="washermanpet.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="440,420,540,480"
+      href="koyambedu.html"
+      target="propertyFrame">
+
+<area shape="rect" coords="560,420,660,480"
+      href="egmore.html"
+      target="propertyFrame">
+        </map>
+    </div>
+
+    <!-- Frame -->
+    <h2 style="text-align:center;">Property Details</h2>
+    <center>
+        <iframe name="propertyFrame" width="70%" height="250">
+            Select a location from the map to view details.
+        </iframe>
+    </center>
+
+<h3 style="text-align:right; margin-right:20px; margin-top:30px">
+        © Designed by Sahana Shree VS <h3>
+
+</body>
+</html>
